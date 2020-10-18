@@ -23,3 +23,30 @@ body {
 
 }
 
+.card-body p {
+    font-size: 16px;
+    margin-top 0;
+    
+}
+
+.float-left {
+ float: left;
+}
+
+.float-right {
+float: right;
+}
+
+.card-body h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.currency, .count {
+    font-size:  30px;
+    font-weight: 500px;
+}
+
+
+
+

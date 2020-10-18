@@ -6,18 +6,18 @@
     <title>The Widget form</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 
 <body>
 
-    <!--Start-->
+    <!--Start Widget-->
     <div class="card-body">
 
         <div class="float-left">
             <h3>
                 <span class="currency">$</span>
-                <span class="currency">20000</span>
+                <span class="count">20000</span>
             </h3>
 
             <p>Revenue</p>
@@ -28,8 +28,24 @@
         </div>
 
     </div>
-     <!--End-->
+     <!--End Widget-->
+
     
-</body>
+    <script type="text/javascript">
+    $('.count').each(function(){
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration:4000,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+
+    </script>
+
+    </body>
 
 </html>
