@@ -9,6 +9,7 @@ body {
 
 /*widget css*/
 
+
 .card-body {
     display: inline-block;
     font-family: "Roboto", sans-serif;
@@ -25,8 +26,8 @@ body {
 
 .card-body p {
     font-size: 16px;
-    margin-top 0;
-    
+    margin-top: 0;
+
 }
 
 .float-left {
@@ -47,6 +48,25 @@ float: right;
     font-weight: 500px;
 }
 
+.card-body i {
+    font-size: 95px;
+    opacity: 0.5;
+}
+
+
+.color1 {
+    background: #00C292;
+}
+.color2 {
+    background: #03A9F3;
+}
+.color3 {
+    background: #FB7146;
+}
+
+.color4 {
+    background: #7902f0;
+}
 
 
 
